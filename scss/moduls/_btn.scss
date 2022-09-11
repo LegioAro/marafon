@@ -1,0 +1,40 @@
+.btn {
+  background-image: linear-gradient(90deg, #048eec 0%, #47e0f1 153.13%);
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: calc(12px + (95 - 12) * ((100vw - 320px) / (1440 - 320)));
+  padding-right: calc(12px + (95 - 12) * ((100vw - 320px) / (1440 - 320)));
+  font-family: 'FuturaBookC', sans-serif;
+  font-size: calc(16px + (28 - 16) * ((100vw - 320px) / (1440 - 320)));
+  line-height: calc(18px + (32 - 18) * ((100vw - 320px) / (1440 - 320)));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+  img {
+    display: inline-flex;
+    width: calc(20px + (34 - 20) * ((100vw - 320px) / (1440 - 320)));
+    height: calc(20px + (34 - 20) * ((100vw - 320px) / (1440 - 320)));
+    margin-right: calc(5px + (10 - 5) * ((100vw - 320px) / (1440 - 320)));
+  }
+}
+@media (min-width: 1440px) {
+  .btn {
+    padding: 20px 95px;
+    font-size: 28px;
+    line-height: 32px;
+    img {
+      width: 34px;
+      margin-right: 10px;
+      height: 34px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .btn {
+    width: 100%;
+    max-width: 100%;
+  }
+}

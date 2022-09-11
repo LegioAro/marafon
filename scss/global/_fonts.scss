@@ -1,0 +1,47 @@
+//font-family: 'FuturaBookC',sans-serif;
+// font-family: 'Stapel',sans-serif;
+// font-family: 'Montserrat', sans-serif;
+
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url('../fonts/futurabookc.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/futurabookc.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/futurabookc.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/futurabookc.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/futurabookc.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/futurabookc.svg#futurabookc') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Stapel';
+  src: url('../fonts/Stapel-Light.woff2') format('woff2'),
+    url('../fonts/Stapel-Light.woff') format('woff'),
+    url('../fonts/Stapel-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Stapel';
+  src: url('../fonts/Stapel-Medium.woff2') format('woff2'),
+    url('../fonts/Stapel-Medium.woff') format('woff'),
+    url('../fonts/Stapel-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Stapel';
+  src: url('../fonts/Stapel-SemiExpandedBold.woff2') format('woff2'),
+    url('../fonts/Stapel-SemiExpandedBold.woff') format('woff'),
+    url('../fonts/Stapel-SemiExpandedBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Stapel';
+  src: url('../fonts/Stapel-SemiExpandedExtraBold.woff2') format('woff2'),
+    url('../fonts/Stapel-SemiExpandedExtraBold.woff') format('woff'),
+    url('../fonts/Stapel-SemiExpandedExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
