@@ -23,12 +23,25 @@
   &__contact {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 550px;
   }
 
   &__links {
     display: flex;
     align-items: center;
     column-gap: 30px;
+  }
+
+  &__text {
+    font-size: 12px;
+    margin-top: 20px;
+    p {
+      margin-bottom: 5px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
