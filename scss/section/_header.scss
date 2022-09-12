@@ -194,6 +194,11 @@
 
 @media (max-width: 900px) {
   .header {
+    &__title {
+      br {
+        display: none;
+      }
+    }
     &__img-block {
       max-width: 300px;
     }
